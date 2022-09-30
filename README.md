@@ -1,1 +1,1 @@
-Script on the C programming language
+0x0A. C - argc, argv
