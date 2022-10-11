@@ -1,11 +1,16 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
- * main - prints the name of the file
- *
- * Return: Always 0 (Success)
+ * main - print file name
+ * Return: always 0
  */
+
 int main(void)
+
 {
-	printf("%s\n", __FILE__);
+	{
+		printf("%s\n", __BASE_FILE__);
+	}
 	return (0);
+}
